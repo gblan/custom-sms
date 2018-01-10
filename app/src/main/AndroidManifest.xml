@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="sms.custom">
 
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-sdk android:minSdkVersion="20" android:targetSdkVersion="21" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -24,5 +28,4 @@
             android:label="@string/title_activity_second"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
-
 </manifest>

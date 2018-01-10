@@ -12,9 +12,8 @@
         android:id="@+id/buttonGoPage2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Allez à la vue n°2"
         android:layout_centerInParent="true"
-     />
+        android:text="Allez à la vue n°2" />
 
     <TextView
         android:id="@+id/textView2"
@@ -22,4 +21,14 @@
         android:layout_height="wrap_content"
         android:text="Page1"
         tools:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonGoPage2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:text="Button" />
+
 </RelativeLayout>

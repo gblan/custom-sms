@@ -20,6 +20,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Page 2"
+        android:onClick="@android:string/dialog_alert_title"
+        android:text="Seconde page d'essai"
         tools:layout_centerHorizontal="true" />
 </RelativeLayout>
